@@ -5,6 +5,7 @@ body {
   margin: 0px;
   padding: 0px;
   background: #f9f9f9;
+  color: #444;
 }
 header {
   height: 80px;
@@ -46,7 +47,8 @@ nav {
   background: #ccc;
 }
 .current {
-  background: #ccc !important;
+  background: #444 !important;
+  color: #fff;
 }
 .pay-now {
   color: #fff;
@@ -315,4 +317,14 @@ li span:nth-child(6),
 .labels .call-info-item {
   font-weight: 600;
   text-transform: uppercase;
+}
+.top-icon {
+  position: relative;
+  display: inline-block;
+  top: 9px;
+}
+.section-icon {
+  position: relative;
+  display: inline-block;
+  top: 7px;
 }

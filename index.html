@@ -5,7 +5,7 @@
 <head>
 <title>Billing</title>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
 <link rel="stylesheet" type="text/css" href="reset.css">
 <link rel="stylesheet" type="text/css" href="style/main.css">
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -27,13 +27,13 @@
 				<span class="button-text"><span class="time">5 days left</span> - <span class='highlight'>Pay Now</span></span>
 			</div>
 			<div class="top-link call-history">
-				<i class="fa fa-phone-square"></i> Call History
+				<img src="img/call.png" class="top-icon" width="30px"/> Call History
 			</div>
 			<div class="top-link plan-summary">
-				<i class="fa fa-bar-chart-o"></i> Usage
+				<img src="img/usage.png" class="top-icon" width="30px"/> Usage
 			</div>
 			<div class="top-link billing-summary current">
-				<i class="fa fa-money"></i> Billing Summary
+				<img src="img/billing.png" class="top-icon" width="30px"/> Billing Summary
 			</div>
 			
 			
@@ -42,7 +42,7 @@
 	</header>
 
 		<div class="spacer"></div>
-		<div class="section-header"><h4><i class="fa fa-money"></i> Billing Summary</h4> <span class="section-date">As of Today</span></div>
+		<div class="section-header"><h4><img src="img/billing.png" class="section-icon" width="30px"/> Billing Summary</h4> <span class="section-date">As of Today</span></div>
 		<section class="section1">
 			<div class="addition-item"><div class="amount">($34.00)</div><div class="description">Previously Owed</div></div>
 			<div class="operation">+</div>
@@ -65,7 +65,7 @@
 		</section>
 
 
-		<div class="section-header usage"><h4><i class="fa fa-bar-chart-o"></i> Usage - Call Text Data</h4> <span class="section-date">July 1 to today</span></div>
+		<div class="section-header usage"><h4><img src="img/usage.png" class="section-icon" width="30px"/> Usage - Call Text Data</h4> <span class="section-date">July 1 to today</span></div>
 
 		<section>
 			<div class="sub-section-header">
@@ -290,314 +290,179 @@
 			<div class="sub-section-nav">Current Plan: 1500 minutes <a href="#">&rsaquo;&rsaquo; edit plan</a> <span class="right"><a href="#">more details</a> | <a href="#">edit alerts</a></span></div>
 		</section>
 
-		<div class="section-header call"><h4><i class="fa fa-phone-square"></i> Call History</h4> <span class="section-date">July 1 to today</span></div>
+		<div class="section-header call"><h4><img src="img/call.png" class="section-icon" width="30px"/> Call History</h4> <span class="section-date">July 1 to today</span></div>
 
 		<section>
 			<div class="labels">
-					<span class="call-info-item">Who</span>
+					<span class="call-info-item">caller ID</span>
 					<span class="call-info-item">Number</span>
 					<span class="call-info-item">date</span>
 					<span class="call-info-item">time</span>
 					<span class="call-info-item">length</span>
-					<span class="call-info-item">incoming</span>
+					<span class="call-info-item">in/out</span>
 			</div>
 			<ul>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Tues. 1/4/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Thurs. 1/5/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Friday 1/6/2013</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
+					<span class="call-info-item">outgoing</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Tues. 1/4/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Thurs. 1/5/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Friday 1/6/2013</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
-				</li>
-				
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">outgoing</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Tues. 1/4/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Thurs. 1/5/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
-				</li>
-				
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Friday 1/6/2013</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">outgoing</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Tues. 1/4/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
-				</li>
-				
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Thurs. 1/5/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Friday 1/6/2013</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
-				</li>
-				
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">outgoing</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Tues. 1/4/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Thurs. 1/5/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
-				</li>
-				
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Friday 1/6/2013</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">outgoing</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Tues. 1/4/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
-				</li>
-				
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Thurs. 1/5/2014</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
+					<span class="call-info-item">incoming</span>
 				</li>
 
 				<li>
 					<span class="call-info-item">Private</span>
 					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
+					<span class="call-info-item">Friday 1/6/2013</span>
 					<span class="call-info-item">1:14PM</span>
 					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
-				</li>
-				
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
-				</li>
-
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
-				</li>
-
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
-				</li>
-				
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
-				</li>
-
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
-				</li>
-
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
-				</li>
-				
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
-				</li>
-
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">no</span>
-				</li>
-
-				<li>
-					<span class="call-info-item">Private</span>
-					<span class="call-info-item">510.384.8049</span>
-					<span class="call-info-item">1/4/2013</span>
-					<span class="call-info-item">1:14PM</span>
-					<span class="call-info-item">23</span>
-					<span class="call-info-item">yes</span>
+					<span class="call-info-item">outgoing</span>
 				</li>
 				
 
