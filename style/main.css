@@ -167,6 +167,9 @@ strong {
   float: right;
   margin-right: -10px;
   font-weight: 300;
+  display: inline-block;
+  position: relative;
+  top: 13px;
 }
 .sub-section-price {
   float: right;
