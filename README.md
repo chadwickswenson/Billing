@@ -21,7 +21,7 @@ Reimagine a cellphone bill and take it online. You can look at your existing pho
 * CSS, HTML
 * jQuery
 * Stylus
-* Photoshop for nav bar icons
+* Photoshop
 
 ## Next Steps ##
 * Iterate, remove complexity, complete workflow
