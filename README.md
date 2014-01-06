@@ -15,8 +15,19 @@ Reimagine a cellphone bill and take it online. You can look at your existing pho
 * 60 minutes on layout
 * 10 minutes user walkthrough with outside user
 * 30 minutes iterate on layout
-* 75 minutes icons, details, color, javascript
+* 75 minutes icons, details, color, javascript, tweeks
+
+## Tools Used ##
+* CSS, HTML
+* jQuery
+* Stylus
+* Photoshop for nav bar icons
 
 ## Next Steps ##
-* Iteration
+* Iterate, remove complexity, complete workflow
+* User testing
 * Responsive design for mobile
+
+## Included ##
+* All Stylus and HTML files
+* Low-fidelity wireframes to describe the end-to-end sample flow with annotations
